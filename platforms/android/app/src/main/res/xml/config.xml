@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.bhaktimarga" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>GuruGita</name>
+    <description>
+       Sri Guru Gita as an application 
+    </description>
+    <author email="sandlacharme@gmail.com" href="http://gmail.com">
+        Bhakti Marga team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon src="/res/icon/android/gurugita_icon.png" />
+    <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreenDelay" value="10000" />
+</widget>
