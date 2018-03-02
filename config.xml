@@ -18,7 +18,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <icon src="/res/icon/android/gurugita_icon.png" />
-        <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
+        <splash src="res/screen/android/screenGuruGita.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
