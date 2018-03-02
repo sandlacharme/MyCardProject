@@ -24,14 +24,8 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
-    <icon density="ldpi" src="res/icon/android/icn_launcher_ldpi.png" />
-    <icon density="mdpi" src="res/icon/android/icn_launcher_mdpi.png" />
-    <icon density="hdpi" src="res/icon/android/icn_launcher_hdpi.png" />
-    <icon density="xhdpi" src="res/icon/android/icn_launcher_xhdpi.png" />
-    <icon density="xxhdpi" src="res/icon/android/icn_launcher_xxhdpi.png" />
-    <icon density="xxxhdpi" src="res/icon/android/icn_launcher_xxxhdpi.png" />
-    <splash src="res/screen/android/splashScreen_720x1024.png" />
+    <icon src="/res/icon/android/gurugita_icon.png" />
+    <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="SplashScreenDelay" value="10000" />
-    <preference name="AutoHideSplashScreen" value="true" />
 </widget>
