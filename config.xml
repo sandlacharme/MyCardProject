@@ -17,8 +17,13 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <icon src="/res/icon/android/gurugita_icon.png" />
-        <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
+        <icon density="ldpi" src="res/icon/android/icn_launcher_ldpi.png" />
+        <icon density="mdpi" src="res/icon/android/icn_launcher_mdpi.png" />
+        <icon density="hdpi" src="res/icon/android/icn_launcher_hdpi.png" />
+        <icon density="xhdpi" src="res/icon/android/icn_launcher_xhdpi.png" />
+        <icon density="xxhdpi" src="res/icon/android/icn_launcher_xxhdpi.png" />
+        <icon density="xxxhdpi" src="res/icon/android/icn_launcher_xxxhdpi.png" />
+        <splash src="res/screen/android/splashScreen_720x1024.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -26,10 +31,16 @@
         <icon src="/res/icon/android/gurugita_icon.png" />
         <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
     </platform>
+    <platform name="browser">
+        <icon src="/res/icon/android/gurugita_icon.png" />
+        <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
+    </platform>
     <preference name="SplashScreenDelay" value="10000" />
+    <preference name="AutoHideSplashScreen" value="true" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <plugin name="cordova-plugin-native-transitions" spec="^0.2.3" />
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.4" />
+    <engine name="browser" spec="^5.0.3" />
 </widget>

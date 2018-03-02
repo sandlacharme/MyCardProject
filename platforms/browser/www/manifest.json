@@ -1,0 +1,17 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "GuruGita",
+  "short_name": "GuruGita",
+  "version": "com.bhaktimarga",
+  "description": "Sri Guru Gita as an application",
+  "author": "Bhakti Marga team",
+  "icons": [
+    {
+      "src": "/res/icon/android/gurugita_icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ],
+  "start_url": "index.html"
+}
