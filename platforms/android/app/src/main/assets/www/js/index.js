@@ -1,21 +1,18 @@
-specialcard = $(".card.g")
-specialcard.hide()
+var controller;
+var app = {
+    // Application Constructor
+    initialize: function() {
+        document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
+    },
 
-//this.classList.toggle('flip');
+    // deviceready Event Handler
+    //
+    // Bind any cordova events here. Common events are:
+    // 'pause', 'resume', etc.
+    onDeviceReady: function() {
+        controller = new Controller();
+        this.receivedEvent('deviceready');
+    },
+};
 
-function toggle() {
-  if ($("#flipcard").hasClass("flip")) {
-    hide()
-  } else {
-    specialcard.show();
-    document.querySelector("#flipcard").classList.toggle("flip");
-  }
-}
-
-function hide(){
-  $("#flipcard").addClass("hide").removeClass("flip");
-    setTimeout(function() {
-      $("#flipcard").removeClass("hide");
-      specialcard.hide();
-    }, 900)
-}
+app.initialize();
