@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Mar 07 19:34:16 CET 2018
+#Wed Mar 07 22:50:21 CET 2018
 122.file=/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/assets/debug/www/app-swami/images/glossary/mahavatar-babaji-thumb.jpg
 60.set=ASSET
 52.set=ASSET

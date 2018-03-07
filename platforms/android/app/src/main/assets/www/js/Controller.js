@@ -18,7 +18,7 @@ var Controller = function() {
                 + "<img class='back' src='img/cards/Verset" + numCard + "_verso_320w.png'>");
             $(".card")
                  .transition({scale:1, duration: 200})
-                 //.transition({y:-160, duration: 200});
+                // .transition({y:-160, duration: 200});
         },
 
         clickAnimateFlipCard: function () {
