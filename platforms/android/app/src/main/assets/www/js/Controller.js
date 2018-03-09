@@ -10,7 +10,9 @@ var Controller = function() {
         },
 
         clickAnimateFlipTopCard: function () {
-            var numCard = Math.floor((Math.random() * 2) + 1);
+            var numCard = Math.floor((Math.random() * 16) + 1);
+          if(numCard == 1 ||numCard == 3 ||numCard == 4||numCard == 5 ||numCard == 10 
+             ||numCard == 11 ||numCard == 12 ||numCard == 15 ||numCard == 16) {      
             $(".top_card")
                 .transition({y:-50, duration: 200})
                 .transition({y:0, duration: 200});
@@ -18,8 +20,8 @@ var Controller = function() {
                 + "<img class='back' src='img/cards/Verset" + numCard + "_verso_320w.png'>");
             $(".card")
                  .transition({scale:1, duration: 200})
-                // .transition({y:-160, duration: 200});
-        },
+                 // .transition({perspective:'1000px',  duration: 20})
+        }},
 
         clickAnimateFlipCard: function () {
             if(forward) {
@@ -32,8 +34,9 @@ var Controller = function() {
                     .transition({y:0, duration: 200})
                     .transition({scale:0, duration: 200});
                 $(".top_card")
+                .transition({y:0, duration: 200});
                     .transition({y:-50, duration: 300})
-                    .transition({y:0, duration: 200});
+                    
                 forward = true;
             }
         },

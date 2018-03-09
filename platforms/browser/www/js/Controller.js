@@ -10,16 +10,18 @@ var Controller = function() {
         },
 
         clickAnimateFlipTopCard: function () {
-            var numCard = Math.floor((Math.random() * 2) + 1);
+            var numCard = Math.floor((Math.random() * 16) + 1);
+          if(numCard == 1 ||numCard == 3 ||numCard == 4||numCard == 5 ||numCard == 10 
+             ||numCard == 11 ||numCard == 12 ||numCard == 15 ||numCard == 16) {      
             $(".top_card")
                 .transition({y:-50, duration: 200})
                 .transition({y:0, duration: 200});
-            $(".card").html("<img class='front' src='img/cards/Verset" + numCard + "_recto_400x584.png'>"
-                + "<img class='back' src='img/cards/Verset_" + numCard + "_verso.png'>");
+            $(".card").html("<img class='front' src='img/cards/Verset" + numCard + "_recto_320w.png'>"
+                + "<img class='back' src='img/cards/Verset" + numCard + "_verso_320w.png'>");
             $(".card")
-                 .transition({scale:0.6, duration: 200 , zIndex: 1})
-                 .transition({perspective : '700px', y:0, duration: 200});
-        },
+                 .transition({scale:1, duration: 200})
+                 // .transition({perspective:'1000px',  duration: 20})
+        }},
 
         clickAnimateFlipCard: function () {
             if(forward) {
