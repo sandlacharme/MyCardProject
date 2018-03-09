@@ -23,9 +23,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <hook src="my-icon-hook.js" type="after_platform_add" />
     <allow-intent href="market:*" />
-    <icon src="/res/icon/android/gurugita_icon.png" />
-    <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
+    <splash src="res/screen/android/screenGuruGita.png" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="500" />
 </widget>

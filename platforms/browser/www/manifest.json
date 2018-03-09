@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "GuruGita",
+  "short_name": "GuruGita",
+  "version": "com.bhaktimarga",
+  "description": "Sri Guru Gita as an application",
+  "author": "Bhakti Marga team",
+  "icons": [],
+  "start_url": "index.html"
+}

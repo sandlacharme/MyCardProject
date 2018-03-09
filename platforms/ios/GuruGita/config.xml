@@ -42,10 +42,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <hook src="my-icon-hook.js" type="after_platform_add" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <icon src="/res/icon/android/gurugita_icon.png" />
-    <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />
@@ -59,5 +58,5 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="500" />
 </widget>

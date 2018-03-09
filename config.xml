@@ -15,21 +15,20 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <hook src="my-icon-hook.js" type="after_platform_add" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <icon src="/res/icon/android/gurugita_icon.png" />
-        <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
+        <splash src="res/screen/android/screenGuruGita.png" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <icon src="/res/icon/android/gurugita_icon.png" />
-        <splash src="res/screen/android/guruji_feetflower_1024x1024.jpg" />
     </platform>
-    <preference name="SplashScreenDelay" value="10000" />
+    <preference name="SplashScreenDelay" value="500" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
     <plugin name="cordova-plugin-native-transitions" spec="^0.2.3" />
     <engine name="android" spec="^7.0.0" />
     <engine name="ios" spec="^4.5.4" />
+    <engine name="browser" spec="^5.0.3" />
 </widget>
