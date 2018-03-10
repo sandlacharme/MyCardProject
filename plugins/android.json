@@ -15,7 +15,17 @@
     },
     "cordova-plugin-native-transitions": {
       "PACKAGE_NAME": "com.bhaktimarga"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.bhaktimarga"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.bhaktimarga"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.bhaktimarga"
+    }
+  }
 }

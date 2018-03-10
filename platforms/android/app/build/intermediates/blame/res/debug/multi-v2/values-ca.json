@@ -4,7 +4,7 @@
             "outputFile": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml",
             "map": [
                 {
-                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha1.aar/4a9c5eed63bb088dc629f1c4c8480b21/res/values-ca/values-ca.xml",
+                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/values-ca/values-ca.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

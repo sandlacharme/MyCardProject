@@ -11,6 +11,14 @@ function initialize() {
 function onDeviceReady() {
     $("#top_card").on("click", clickAnimateFlipTopCard);
     $(".card").on("click", clickAnimateFlipCard);
+   timeToWait = Math.floor((Math.random() * 20) + 1);
+  // if(onDeviceReady){
+     cordova.plugins.notification.local.schedule({
+        title: 'Nouvelle carte',
+        text: 'Une nouvelle carte a été tirée !',
+        trigger: { in: timeToWait, unit: 'second' },
+        foreground: true
+    });
 }
 
 function onPause() {
