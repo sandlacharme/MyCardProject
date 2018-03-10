@@ -23,7 +23,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <hook src="my-icon-hook.js" type="after_platform_add" />
     <allow-intent href="market:*" />
     <splash src="res/screen/android/screenGuruGita.png" />
     <preference name="loglevel" value="DEBUG" />

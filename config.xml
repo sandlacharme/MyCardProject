@@ -15,7 +15,6 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <hook src="my-icon-hook.js" type="after_platform_add" />
     <platform name="android">
         <allow-intent href="market:*" />
         <splash src="res/screen/android/screenGuruGita.png" />
