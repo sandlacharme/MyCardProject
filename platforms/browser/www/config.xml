@@ -15,6 +15,5 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <hook src="my-icon-hook.js" type="after_platform_add" />
     <preference name="SplashScreenDelay" value="500" />
 </widget>

@@ -34,8 +34,9 @@ var Controller = function() {
                     .transition({y:0, duration: 200})
                     .transition({scale:0, duration: 200});
                 $(".top_card")
+                .transition({y:0, duration: 200});
                     .transition({y:-50, duration: 300})
-                    .transition({y:0, duration: 200});
+                    
                 forward = true;
             }
         },

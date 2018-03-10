@@ -1,5 +1,4 @@
-
- * {
+{
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
@@ -18,12 +17,6 @@ body {
     width:100%;
 }
 
-html, body { /** for a container in all the screen */
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
 h1 {
     font-size:24px;
     font-weight:normal;
@@ -35,117 +28,91 @@ h1 {
 
 
 /*------Mes modifs------*/
-
-/*Navbar*/
-nav {
-    background: #222222;
-    color: yellow;
-    padding: 5px;
-    margin-bottom: 10px;
+html, body { /** for a container in all the screen */
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 20px 0 0;
-}
-
-nav a {
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-}
-
-nav a.current {
-    background: white;
-    color: #222222;
-}
-
-
-/*Homepage*/
 .container {  /** for a container in all the screen */
     position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.paquet {
-  position: absolute;
-  top: auto;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+#c1, #c2, #c3, #c4, #top_card {
+    position: absolute;
+     width: 80%;
+     top: 50%;
+    left: 50%;
 }
 
 #c1 {
-    margin-bottom: -253px;
-    margin-right: -80px;
+    -webkit-transform: translateY(-54%) translateX(-46%);
+    transform: translateY(-54%) translateX(-46%);
 }
 
 #c2 {
-    margin-bottom: -243px;
-    margin-right: -60px;
+    -webkit-transform: translateY(-52%) translateX(-48%);
+    transform: translateY(-52%) translateX(-48%);
 }
 
 #c3 {
-    margin-bottom: -233px;
-    margin-right: -40px;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
 }
 
 #c4 {
-    margin-bottom: -223px;
-    margin-right: -20px;
+    -webkit-transform: translateY(-48%) translateX(-52%);
+    transform: translateY(-48%) translateX(-52%);
 }
 
-.top_card {
-    display: inline-block;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    transition: 200ms linear;
+#top_card {
+    -webkit-transform: translateY(-46%) translateX(-54%);
+    transform: translateY(-46%) translateX(-54%);
 }
+
+
 
 .card {
-   display: block;
     -webkit-transform-style: preserve-3d;
-   transform-origin: top;
+    transform-origin: top;
     transform-style: preserve-3d;
-    transition: 200ms linear;
     position: absolute;
-    top:auto;left: 0;right: 0;bottom: 0;
+    top:auto;
+    left: 0;
+    right: 0;
     margin: auto;
     max-width: 100%;
-      height: 100%;
+    height:auto;
     text-align: center;
-    }
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
 
-.front {
-  position: absolute;
-    top:auto;left: 0;
-     max-width: 100%;
-   height: auto;
-   margin: auto;
-  min-height: 100%;
-    min-width: 100%;
-    transition: 200ms linear;
+.front img {
+    position: absolute;
+    top:auto;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    min-height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
 
-.back {
-  position: absolute;
-    top:auto;left: 0;
+.back img {
+    position: absolute;
+    top:auto;
+    left: 0;
+    top: 0;
     margin: auto;
-     max-width: 100%;
-       height: auto;
-    min-height: 100%;
-    min-width: 100%;
-    transition: 200ms linear;
+    width: 100%;
+    height: auto;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-transform: rotateY(180deg);
