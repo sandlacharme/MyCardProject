@@ -24,16 +24,16 @@
         "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
-        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
-        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
@@ -80,16 +80,16 @@
         "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/sandrine/GuruGita/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
-        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
-        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/sandrine/GuruGita/platforms/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_ic_launcher.png.flat",
@@ -104,12 +104,12 @@
         "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
-        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_icon.png.flat",
         "source": "/Users/sandrine/GuruGita/platforms/android/app/src/main/res/mipmap-xhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4212107a2c7632a31ab6dc5af6be5e39/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",

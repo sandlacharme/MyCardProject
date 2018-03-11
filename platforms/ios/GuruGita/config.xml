@@ -53,6 +53,7 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <splash src="res/screen/android/screenGuruGita.png" />
     <icon height="180" src="res/icon/ios/icon-60@3x.png" width="180" />
     <icon height="60" src="res/icon/ios/icon-60.png" width="60" />
     <icon height="120" src="res/icon/ios/icon-60@2x.png" width="120" />
@@ -77,5 +78,6 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-    <preference name="SplashScreenDelay" value="500" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="AutoHideSplashScreen" value="true" />
 </widget>
