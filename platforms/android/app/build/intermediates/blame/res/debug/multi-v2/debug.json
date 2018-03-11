@@ -331,21 +331,6 @@
             ]
         },
         {
-            "outputFile": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/values-en-rCA_values-en-rCA.arsc.flat",
-            "map": [
-                {
-                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha1.aar/4a9c5eed63bb088dc629f1c4c8480b21/res/values-en-rCA/values-en-rCA.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat",
             "map": [
                 {
@@ -851,21 +836,6 @@
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat",
-            "map": [
-                {
-                    "source": "/private/var/root/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-alpha1.aar/4a9c5eed63bb088dc629f1c4c8480b21/res/values-en-rXC/values-en-rXC.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "202",
-                        "endOffsets": "253"
                     }
                 }
             ]

@@ -34,6 +34,10 @@
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
     <splash src="res/screen/android/screenGuruGita.png" />
+    <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
+    <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
+    <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
+    <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="SplashScreenDelay" value="500" />
 </widget>
