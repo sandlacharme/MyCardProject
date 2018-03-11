@@ -28,7 +28,7 @@ function onPause() {
         title: 'Nouveau verset',
         text: 'Verset '+ numCard,
        // trigger: { in: timeToWait, unit: 'second' },
-       trigger: { every: 'day', hour: '18' , min :'50'},
+       every: 'day',
         foreground: true
     });
   cordova.plugins.notification.local.on("click", function (notification) {

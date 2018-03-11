@@ -1,4 +1,4 @@
-#Sat Mar 10 18:48:56 CET 2018
+#Sun Mar 11 17:43:54 CET 2018
 base.0=/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 file.0=/Users/sandrine/GuruGita/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
